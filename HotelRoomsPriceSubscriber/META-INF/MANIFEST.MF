@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HotelRoomsPriceSubscriber
+Bundle-SymbolicName: HotelRoomsPriceSubscriber
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: ServiceActivator
+Import-Package: org.osgi.framework;version="1.3.0", com.mtit.osgi.roomsservice,
+ com.mtit.osgi.roomsservice.usecase
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+
